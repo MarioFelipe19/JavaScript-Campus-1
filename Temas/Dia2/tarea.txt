@@ -1,0 +1,3 @@
+Investigar (qué es y usos) operadores de desplazamiento y desplazamiento con asignación (<<= , >>= ,>>>=)
+Investigar (qué es y usos) operadores de bits con asignación (&=, ^=, |=)
+Investigar (qué es y cómo se usa) funciones repetitivas como indexOf, every y reduce
