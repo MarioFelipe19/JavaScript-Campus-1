@@ -1,7 +1,7 @@
-console.log("Buscar la palabra ingresada en la cadena guardada")
+console.log("Buscar el indice sobre la primera coincidencia y imprimirlo")
 
-let regex = /perro/;
-let texto = "Tengo un perro y un gato.";
+let regex = /perro/; // esta liena se guarda la pabra a buscar en la bariable.
+let texto = "Tengo un perro y un gato.";// esta linea se ingresa la cadena a la que se le buscara la coincidencia.
 
-let resultado = texto.search(regex);
-console.log(resultado); // 9
+let resultado = texto.search(regex);// esta liea devuelve el indice de la coincidencia con el metodo  search.
+console.log(resultado); // esta lienea imprime el indeice de la coincidencia.
