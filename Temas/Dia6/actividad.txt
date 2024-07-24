@@ -1,0 +1,13 @@
+Simular el comportamiento de una red social 
+con procesos asíncronos en el siguiente orden:
+
+-Añadir amigo
+-Llega la solicitud
+-Acepta la solicitud
+-Llega la notificación de aceptación
+-Chatean
+-Se publica una foto
+-La foto es comentada
+-SE cierra sesión
+
+Los tiempos de espera de cada proceso asíncrono son libres.
