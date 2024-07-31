@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Provar Url</title>
+    <link rel="stylesheet" href="./Dia9.css">
+</head>
+<body>
+    <h1>Validar URL</h1>
+    <input type="text" id="urlInput" placeholder="Ingrese la URL">
+    <button onclick="validarurl()">Validar URL</button>
+    <div class="result" id="result"></div>
+    <script>
+        function validarurl() {
+            const urlInput = document.getElementById('urlInput').value;
+            const resultDiv = document.getElementById('result');
+
+            if (URL.canParse(urlInput)){
+                resultDiv.innerHTML = `<p style="color: green;">La URL <strong>${urlInput}</strong>es valida.</p>`;
+            }else{
+                resultDiv.innerHTML = `<p style="color: red;">La URL <strong>${urlInput}</strong> no es valida.</p>`;
+            }
+        }
+    </script>
+</body>
+</html>
